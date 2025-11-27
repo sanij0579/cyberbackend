@@ -20,7 +20,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'dev-secret')  # Use env var in produc
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # Add your deployed hostnames here
-ALLOWED_HOSTS = ['cyberbackend-mimm.onrender.com', 'localhost', '127.0.0.1']
+
+ALLOWED_HOSTS = ["cyberbackend-btci.onrender.com", "localhost", "127.0.0.1"]
 
 # CSRF trusted origins if using HTTPS
 CSRF_TRUSTED_ORIGINS = ['https://financetracker-mimm.onrender.com']
